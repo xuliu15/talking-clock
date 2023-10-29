@@ -6,9 +6,9 @@
 
 
 ### Back to Nature Clock with customized Star Wars Alarm ### 
-7.1
+## 7.1
 Installation
-### STEPS TO RUN AND INSTALL HAVE BEEN TESTED USING WINDOWS. THERE MAY BE ISSUES OCCURRING FOR LINUX AND MACOS, SO BE ADVISED! ###
+# STEPS TO RUN AND INSTALL HAVE BEEN TESTED USING MAC OS. THERE MAY BE ISSUES OCCURRING FOR LINUX AND WINDOWS SO BE ADVISED! #
 
 Click on the green Code button at the top of the repository > Download ZIP.
 Extract the ZIP to the location where you want to install it on your computer.
