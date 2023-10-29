@@ -1,14 +1,14 @@
 # talking-clock
+# Back to Nature Clock with customized Star Wars Alarm ### 
 
 
 <img width="611" alt="image" src="https://github.com/xuliu15/talking-clock/assets/144012055/2d18094a-1330-4a22-bf95-1cecabaedc98">
 
 
 
-### Back to Nature Clock with customized Star Wars Alarm ### 
 ## 7.1
-Installation
-# STEPS TO RUN AND INSTALL HAVE BEEN TESTED USING MAC OS. THERE MAY BE ISSUES OCCURRING FOR LINUX AND WINDOWS SO BE ADVISED! #
+## Installation
+### STEPS TO RUN AND INSTALL HAVE BEEN TESTED USING MAC OS. THERE MAY BE ISSUES OCCURRING FOR LINUX AND WINDOWS SO BE ADVISED! #
 
 Click on the green Code button at the top of the repository > Download ZIP.
 Extract the ZIP to the location where you want to install it on your computer.
@@ -21,11 +21,18 @@ Requirements before installing
 Make sure you have Python 3.9 installed. Download the latest 3.9 version from here: https://www.python.org/downloads/
 How to Run
 Run python main.py in the terminal. Make sure to be in the same directory where the repository is installed in the terminal. It will open an interactive Graphical User Interface.
-Within the terminal, move to the root directory, where the requirements file is located. With the command pip install -r requirements.txt you can install all necessary packages to run the code. In case you get a tkinter ImportError, please refer to: https://tkdocs.com/tutorial/install.html. Next, run the file code.py from the root directory with the command python code.py.
+You need to install all necessary packages before running the code. Here is a summary of the third-party libraries your code requires and how to install them:
+- Pillow (PIL): You can install it by running `pip install Pillow`.
+- gTTS (Google Text-to-Speech): You can install it with `pip install gTTS`.
+- pygame: You can install it via `pip install pygame`.
+- pydub: You can install it using `pip install pydub`.
+- espeak. With MacOS, use ‘brew install espeak’.
+Next, run the file code.py from the root directory with the command python code.py.
 
-One window will open when the command is executed. The window contains the analog clock (with digital clock right below) on the background picture on the right, and control panels on the left.
+One window will open when the command is executed. The window contains the analog clock (with the digital clock right below) on the background picture on the right and control panels on the left.
 
-To start, choose a voice sex and language first (this friendly reminder displayed in light orange on the control panels as well), then you can play around whether you would like the clock to announce the current time by clicking “Announce Current Time”, or let the clock remind you time elapsing hour by hour by pressing the button of “Activate Hourly Time Announcement”. On the top left, you are able to choose the timezone in Amsterdam or Chongqing, once you click one of them, you will notice the analog clock and digital clock change accordingly. This clock across two time zones is beneficial when you would like to schedule a business meeting or call with the family across time zones. You can do so by setting up an alarm by clicking “Set Alarm”, you would have to manually type in year-month-day,however, the drop-down menu for hours and minutes is available. Once the current time hits the scheduled alarm timing, you shall hear the theme songs of Star Wars. Just like how you set alarms on your phones, multiple entries of the alarms are allowed. 
+To start, choose voice sex and language first (this friendly reminder is displayed in light orange on the control panels as well), then you can play around with whether you would like the clock to announce the current time by clicking “Announce Current Time”, or let the clock remind you time elapsing hour by hour by pressing the button of “Activate Hourly Time Announcement”. On the top left, you are able to choose the timezone in Amsterdam or Chongqing, once you click one of them, you will notice the analog clock and digital clock change accordingly. This clock across two time zones is beneficial when you would like to schedule a business meeting or call with the family across time zones. You can do so by setting up an alarm by clicking “Set Alarm”, you would have to manually type in year-month-day, however, the drop-down menu for hours and minutes is available. Once the current time hits the scheduled alarm time, you shall hear the theme songs of Star Wars. Just like how you set alarms on your phones, multiple entries of the alarms are allowed, but the subsequent alarms cannot ring due to coding limitations. 
+
 7.2 Team Organization and Project Workflow 
 This is the speaking/talking clock that we developed in Python 3.9 for an assignment for the course "Introduction to Voice Technology" as part of the Voice Technology MSc at RUG - Campus Fryslan. 
 
