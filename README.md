@@ -8,7 +8,7 @@
 
 ## 7.1
 ## Installation
-### STEPS TO RUN AND INSTALL HAVE BEEN TESTED USING MAC OS. THERE MAY BE ISSUES OCCURRING FOR LINUX AND WINDOWS SO BE ADVISED! #
+### STEPS TO RUN AND INSTALL HAVE BEEN TESTED USING MAC OS. THERE MAY BE ISSUES OCCURRING FOR LINUX AND WINDOWS SO BE ADVISED! 
 
 Click on the green Code button at the top of the repository > Download ZIP.
 Extract the ZIP to the location where you want to install it on your computer.
@@ -19,7 +19,8 @@ Run pip install -r requirements.txt to install the dependencies required.
 
 Requirements before installing
 Make sure you have Python 3.9 installed. Download the latest 3.9 version from here: https://www.python.org/downloads/
-How to Run
+### How to Run
+
 Run python main.py in the terminal. Make sure to be in the same directory where the repository is installed in the terminal. It will open an interactive Graphical User Interface.
 You need to install all necessary packages before running the code. Here is a summary of the third-party libraries your code requires and how to install them:
 - Pillow (PIL): You can install it by running `pip install Pillow`.
@@ -33,7 +34,7 @@ One window will open when the command is executed. The window contains the analo
 
 To start, choose voice sex and language first (this friendly reminder is displayed in light orange on the control panels as well), then you can play around with whether you would like the clock to announce the current time by clicking “Announce Current Time”, or let the clock remind you time elapsing hour by hour by pressing the button of “Activate Hourly Time Announcement”. On the top left, you are able to choose the timezone in Amsterdam or Chongqing, once you click one of them, you will notice the analog clock and digital clock change accordingly. This clock across two time zones is beneficial when you would like to schedule a business meeting or call with the family across time zones. You can do so by setting up an alarm by clicking “Set Alarm”, you would have to manually type in year-month-day, however, the drop-down menu for hours and minutes is available. Once the current time hits the scheduled alarm time, you shall hear the theme songs of Star Wars. Just like how you set alarms on your phones, multiple entries of the alarms are allowed, but the subsequent alarms cannot ring due to coding limitations. 
 
-7.2 Team Organization and Project Workflow 
+## 7.2 Team Organization and Project Workflow 
 This is the speaking/talking clock that we developed in Python 3.9 for an assignment for the course "Introduction to Voice Technology" as part of the Voice Technology MSc at RUG - Campus Fryslan. 
 
 The team memebrs are Xinyi Ma, Wansu Zhu, Xueying Liu, Cathy Ting Zhang and Sherry Yu-Ting Yeh. 
