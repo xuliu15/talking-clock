@@ -200,7 +200,7 @@ def check_time_loop():
         current_minute = current_time.tm_min #type: integer
         current_hours = current_time.tm_hour
 
-        if current_minute == 0:
+        if current_minute == 30:
             time_string = time.strftime("%I:%M %p", current_time)
             print(f"Current time string: {time_string}")
             if get_gender() == 'Male' and get_language() == 'English':
