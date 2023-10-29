@@ -24,7 +24,7 @@ You need to install all necessary packages before running the code. Here is a su
 - gTTS (Google Text-to-Speech): You can install it with `pip install gTTS`.
 - pygame: You can install it via `pip install pygame`.
 - pydub: You can install it using `pip install pydub`.
-- espeak. With MacOS, use ‘brew install espeak’.
+- espeak: With MacOS, use ‘brew install espeak’.
 Next, run the file code.py from the root directory with the command python code.py.
 
 One window will open when the command is executed. The window contains the analog clock (with the digital clock right below) on the background picture on the right and control panels on the left.
