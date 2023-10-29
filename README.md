@@ -13,12 +13,11 @@ Extract the ZIP to the location where you want to install it on your computer.
 (You can also just clone the repository locally if you are familiar with Git. In that case, the steps above can be skipped)
 
 Open the terminal (or command prompt, depending on the OS you use) and navigate to where you extracted the zip via the terminal.
-Run pip install -r requirements.txt to install the dependencies required.
 
-Requirements before installing
+### Requirements before installing  
 Make sure you have Python 3.9 installed. Download the latest 3.9 version from here: https://www.python.org/downloads/
-### How to Run
 
+### How to Run  
 Run python main.py in the terminal. Make sure to be in the same directory where the repository is installed in the terminal. It will open an interactive Graphical User Interface.
 You need to install all necessary packages before running the code. Here is a summary of the third-party libraries your code requires and how to install them:
 - Pillow (PIL): You can install it by running `pip install Pillow`.
@@ -52,7 +51,7 @@ Our initial brainstorms aim to construct the clock with the following features: 
 TThe repository contains the folder "Audios" that includes the mp3 files the programme uses. Mandarin_Male_MP3 include Mandarin male voice that were generated and downloaded from (https://www.narakeet.com/languages/). Mandarin_Female_MP3 include Madarin female voice recorded by our team member Cathy Ting Zhang. These files are for hourly time announcement. 
 
 
-The background.png file in the repository is used as the background picture for the clock window.
+The background_day.jpg file in the repository is used as the background picture for the clock window.
 
 
 As for the background picture, we initially aim to construct an interface that can automatically change the background picture once the clock hits 6 p.m. and then change the background picture back again at 6 am. However, several attempts have resulted in missing background pictures (i.e. the interface ended up displaying the clock without background pictures) or the numbers on the clock disappeared. Therefore we decided to keep only one background picture. The background picture for nighttime has been eliminated. Furthermore, the background picture results in a variety of displays on different laptops, the background picture is either missing or becomes a “zoom-in” version that displays only the top left corner which is the sky. 
