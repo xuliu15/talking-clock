@@ -26,7 +26,7 @@ You need to install all necessary packages before running the code. Here is a su
 - pydub: You can install it using `pip install pydub`.
 - eSpeak: With Linux, use the package manager for your distribution (e.g., apt for Debian/Ubuntu, dnf for Fedora, yum for CentOS/RHEL) to install it with a command like `sudo apt-get install espeak`. With macOS, if you use Homebrew, you can install eSpeak with `brew install espeak`, alternatively, download the macOS version from the official eSpeak website(https://espeak.sourceforge.net/) and follow the provided instructions for compiling and installing it. With Windows, you can download a Windows installer from the eSpeak official website and follow the installation prompts, if you use Chocolatey as a package manager, you can install eSpeak with `choco install espeak`.
   
-Next, run the file code.py from the root directory with the command python code.py.
+Next, run the file talking_clock.py from the root directory with the command python talking_clock.py.
 
 One window will open when the command is executed. The window contains the analog clock (with the digital clock right below) on the background picture on the right and control panels on the left.
 
