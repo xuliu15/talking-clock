@@ -16,7 +16,7 @@ Extract the ZIP to the location where you want to install it on your computer.
 Open the terminal (or command prompt, depending on the OS you use) and navigate to where you extracted the zip via the terminal.
 Run pip install -r requirements.txt to install the dependencies required.
 
-### equirements before installing
+### Requirements before installing
 Make sure you have Python 3.9 installed. Download the latest 3.9 version from here: https://www.python.org/downloads/
 
 ### How to Run
@@ -39,11 +39,11 @@ This is the speaking/talking clock that we developed in Python 3.9 for an assign
 The team memebrs are Xinyi Ma, Wansu Zhu, Xueying Liu, Cathy Ting Zhang and Sherry Yu-Ting Yeh. 
 Our initial brainstorms aim to construct the clock with the following features: time zones, set alarm, change gender, change voice (this specifically refers to voice quality, such that we originally intend to incorporate the voice of SpongeBob SquarePants) and change languages.
  
-- Xinyi Ma: Current Time function. Voice recordings. Video presentation. 
-- Wansu Zhu: Alarm function. Video presentation.
-- Xueying Liu: Time announcement function (both synthetic voice and human voice recordings) . Video presentation. 
-- Cathy Ting Zhang: Time zone function. Time announcement function. Voice recordings. Video presentation. 
-- Sherry Yu-Ting Yeh: Analog clock, digital clock and the background picture. Documentation.
+- **Xinyi Ma**: Current Time function. Voice recordings. Video presentation. 
+- **Wansu Zhu**: Alarm function. Video presentation.
+- **Xueying Liu**: Time announcement function (both synthetic voice and human voice recordings) . Video presentation. 
+- **Cathy Ting Zhang**: Time zone function. Time announcement function. Voice recordings. Video presentation. 
+- **Sherry Yu-Ting Yeh**: Analog clock, digital clock and the background picture. Documentation.
 
 ## 7.3 The resource documentation and technical reflection
 
