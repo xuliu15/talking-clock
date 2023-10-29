@@ -18,7 +18,7 @@ Open the terminal (or command prompt, depending on the OS you use) and navigate 
 Make sure you have Python 3.9 installed. Download the latest 3.9 version from here: https://www.python.org/downloads/
 
 ### How to Run  
-Run python main.py in the terminal. Make sure to be in the same directory where the repository is installed in the terminal. It will open an interactive Graphical User Interface.
+Run python talking_clock.py in the terminal. Make sure to be in the same directory where the repository is installed in the terminal. It will open an interactive Graphical User Interface.
 You need to install all necessary packages before running the code. Here is a summary of the third-party libraries your code requires and how to install them:
 - Pillow (PIL): You can install it by running `pip install Pillow`.
 - gTTS (Google Text-to-Speech): You can install it with `pip install gTTS`.
