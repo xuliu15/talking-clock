@@ -200,7 +200,7 @@ def check_time_loop():
         current_minute = current_time.tm_min #type: integer
         current_hours = current_time.tm_hour
 
-        if current_minute == 30:
+        if current_minute == 33:
             time_string = time.strftime("%I:%M %p", current_time)
             print(f"Current time string: {time_string}")
             if get_gender() == 'Male' and get_language() == 'English':
@@ -240,7 +240,7 @@ def play_male_mandarin():
     current_time = datetime.now(pytz.timezone(selected_time_zone))
     current_time_struct = current_time.timetuple()
     current_hours = current_time_struct.tm_hour
-    audio_file_path = f'Mandarin_Male_MP3/M_M_{current_hours}.mp3'
+    audio_file_path = f'audio_files/Mandarin_Male_MP3/M_M_{current_hours}.mp3'
     pygame.mixer.music.load(audio_file_path)
     pygame.mixer.music.play()
 
@@ -249,7 +249,7 @@ def play_female_mandarin():
     current_time = datetime.now(pytz.timezone(selected_time_zone))
     current_time_struct = current_time.timetuple()
     current_hours = current_time_struct.tm_hour
-    audio_file_path = f'Mandarin_Female_MP3/M_F_{current_hours}.mp3'
+    audio_file_path = f'audio_files/Mandarin_Female_MP3/M_F_{current_hours}.mp3'
     pygame.mixer.music.load(audio_file_path)
     pygame.mixer.music.play()
 
