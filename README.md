@@ -5,7 +5,7 @@
 
 
 
-## 7.1 Installation
+## 1. Installation
 ### STEPS TO RUN AND INSTALL HAVE BEEN TESTED USING MAC OS. THERE MAY BE ISSUES OCCURRING FOR LINUX AND WINDOWS SO BE ADVISED! 
 
 Click on the green Code button at the top of the repository > Download ZIP.
@@ -31,7 +31,7 @@ One window will open when the command is executed. The window contains the analo
 
 To start, choose voice sex and language first (this friendly reminder is displayed in light orange on the control panels as well), then you can play around with whether you would like the clock to announce the current time by clicking “Announce Current Time”, or let the clock remind you time elapsing hour by hour by pressing the button of “Activate Hourly Time Announcement”. On the top left, you are able to choose the timezone in Amsterdam or Chongqing, once you click one of them, you will notice the analog clock and digital clock change accordingly. This clock across two time zones is beneficial when you would like to schedule a business meeting or call with the family across time zones. You can do so by setting up an alarm by clicking “Set Alarm”, you would have to manually type in year-month-day, however, the drop-down menu for hours and minutes is available. Once the current time hits the scheduled alarm time, you shall hear the theme songs of Star Wars. Just like how you set alarms on your phones, multiple entries of the alarms are allowed, but the subsequent alarms cannot ring due to coding limitations. 
 
-## 7.2 Team Organization and Project Workflow 
+## 2. Team Organization and Project Workflow 
 
 This is the speaking/talking clock that we developed in Python 3.9 for an assignment for the course "Introduction to Voice Technology" and “Programming” as part of the Voice Technology MSc at RUG - Campus Fryslan. 
 
@@ -45,7 +45,7 @@ Our initial brainstorms aim to construct the clock with the following features: 
 - Sherry Yu-Ting Yeh: Analog clock, digital clock, and the background picture. Documentation.
 
 
-## 7.3 The resource documentation and technical reflection
+## 3. The resource documentation and technical reflection
 
 
 TThe repository contains the folder "Audios" that includes the mp3 files the programme uses. Mandarin_Male_MP3 include Mandarin male voice that were generated and downloaded from (https://www.narakeet.com/languages/). Mandarin_Female_MP3 include Madarin female voice recorded by our team member Cathy Ting Zhang. These files are for hourly time announcement. 
@@ -58,7 +58,7 @@ As for the background picture, we initially aim to construct an interface that c
 
 The alarm function runs successfully in the local time (Amsterdam timezone), but we didn't manage to connect it with time zone switching function due to time limit. 
 
-## 7.4 GUI user manual
+## 4. GUI user manual
 
 Back to Nature Clock provides intuitive operation for users. There is a digital clock display in the 24-hour format down below the analog clock, allowing users to figure out daytime or night. It enables users to choose a time zone in either Amsterdam (Europe) or Chongqing (Asia) and announce the current time with synthetic voice, with the option of both female and male voicing, Mandarin and English voicing. The synthesized voices in the current time announcement were produced by espeak( for male Mandarin and English) and gTTS (for female English and Mandarin).The hourly time announcement function is also available, along with the customization in voice by gender (female/male) and language (English/ Mandarin). Kindly note that the real human voice was used only for hourly time announcements in Mandarin female voice. 
 
