@@ -56,7 +56,7 @@ The background_day.jpg file in the repository is used as the background picture 
 
 As for the background picture, we initially aim to construct an interface that can automatically change the background picture once the clock hits 6 p.m. and then change the background picture back again at 6 am. However, several attempts have resulted in missing background pictures (i.e. the interface ended up displaying the clock without background pictures) or the numbers on the clock disappeared. Therefore we decided to keep only one background picture. The background picture for nighttime has been eliminated. Furthermore, the background picture results in a variety of displays on different laptops, the background picture is either missing or becomes a “zoom-in” version that displays only the top left corner which is the sky. 
 
-The alarm function runs successfully in the Amsterdam timezone but not Chongqing timezone. 
+The alarm function runs successfully in the local time (Amsterdam timezone), but we didn't manage to connect it with time zone switching function due to time limit. 
 
 ## 7.4 GUI user manual
 
