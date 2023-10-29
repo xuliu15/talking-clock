@@ -1,7 +1,7 @@
 # talking-clock
 
 
-<img width="598" alt="image" src="https://github.com/xuliu15/talking-clock/assets/144012055/2ed3c6f3-f732-4302-8f85-98b5a1099608">
+<img width="611" alt="image" src="https://github.com/xuliu15/talking-clock/assets/144012055/2d18094a-1330-4a22-bf95-1cecabaedc98">
 
 
 
