@@ -5,7 +5,7 @@
 
 
 
-Back to Nature Clock with customized Star Wars Alarm  
+### Back to Nature Clock with customized Star Wars Alarm ### 
 7.1
 Installation
 ### STEPS TO RUN AND INSTALL HAVE BEEN TESTED USING WINDOWS. THERE MAY BE ISSUES OCCURRING FOR LINUX AND MACOS, SO BE ADVISED! ###
