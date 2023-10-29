@@ -67,7 +67,7 @@ While English typically announces time in an AM/PM manner, Mandarin tends to spl
 
 
 
-## 7.5 Licensing statement / reflection FAIR data / GDPR Compliance
+## 5. Licensing statement / reflection FAIR data / GDPR Compliance
 The audio files used were generated from  https://www.narakeet.com/languages/
 The consent form for the collection of this data is attached since the only actual human voice was recorded by our team member Ting Zhang. 
 The data used for the speaking clock therefore complies with GDPR regulations.
