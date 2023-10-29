@@ -200,7 +200,7 @@ def check_time_loop():
         current_minute = current_time.tm_min #type: integer
         current_hours = current_time.tm_hour
 
-        if current_minute == 33:
+        if current_minute == 45:
             time_string = time.strftime("%I:%M %p", current_time)
             print(f"Current time string: {time_string}")
             if get_gender() == 'Male' and get_language() == 'English':
@@ -342,7 +342,7 @@ def alarm_thread_func():
                 alarm_label.pack()
                 stop_button = tk.Button(alarm_window, text="Stop Alarm", command=stop_alarm)
                 stop_button.pack()
-                audio_file_path = 'starwars.wav'
+                audio_file_path = 'audio_files/starwars.wav'
                 pygame.mixer.music.load(audio_file_path)
                 pygame.mixer.music.play()
                 time.sleep(300)  # Alarm rings for 5 minutes (300 seconds)
