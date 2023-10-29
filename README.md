@@ -24,7 +24,7 @@ You need to install all necessary packages before running the code. Here is a su
 - gTTS (Google Text-to-Speech): You can install it with `pip install gTTS`.
 - pygame: You can install it via `pip install pygame`.
 - pydub: You can install it using `pip install pydub`.
-- eSpeak: With Linux, use the package manager for your distribution (e.g., apt for Debian/Ubuntu, dnf for Fedora, yum for CentOS/RHEL) to install it with a command like sudo apt-get install espeak .With macOS, if you use Homebrew, you can install eSpeak with brew install espeak. Alternatively, download the macOS version from the official eSpeak website and follow the provided instructions for compiling and installing it.With Windows, you can download a Windows installer from the eSpeak official website and follow the installation prompts. If you use Chocolatey as a package manager, you can install eSpeak with choco install espeak.
+- eSpeak: With Linux, use the package manager for your distribution (e.g., apt for Debian/Ubuntu, dnf for Fedora, yum for CentOS/RHEL) to install it with a command like `sudo apt-get install espeak`. With macOS, if you use Homebrew, you can install eSpeak with `brew install espeak`, alternatively, download the macOS version from the official eSpeak website and follow the provided instructions for compiling and installing it. With Windows, you can download a Windows installer from the eSpeak official website and follow the installation prompts, if you use Chocolatey as a package manager, you can install eSpeak with choco install eSpeak.
   
 Next, run the file code.py from the root directory with the command python code.py.
 
