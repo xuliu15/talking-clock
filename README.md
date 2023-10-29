@@ -1,18 +1,7 @@
 # talking-clock
 
-The installation instructions and dependency handling (component 7.1)
-Technical Documentation: , 
-Team organization and project workflow (component 7.2)
-Non-Technical 
-the resource documentation and technical reflection (component 7.3)
 
-
-Technical Documentation: , 
- GUI user manual (component 7.4) 
-Non-Technical 
-Licensing statement / reflection FAIR data (component 7.5) 
-Non-Technical 
-
+<img width="598" alt="image" src="https://github.com/xuliu15/talking-clock/assets/144012055/2ed3c6f3-f732-4302-8f85-98b5a1099608">
 
 
 
