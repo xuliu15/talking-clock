@@ -40,13 +40,13 @@ To start, choose a voice sex and language first (this friendly reminder displaye
 7.2 Team Organization and Project Workflow 
 This is the speaking/talking clock that we developed in Python 3.9 for an assignment for the course "Introduction to Voice Technology" as part of the Voice Technology MSc at RUG - Campus Fryslan. 
 
-The team memebrs are Xinyi Ma, Wansu Zhu, Xueying Liu, Cathy Ting Jiang and Sherry Yu-Ting Yeh. 
+The team memebrs are Xinyi Ma, Wansu Zhu, Xueying Liu, Cathy Ting Zhang and Sherry Yu-Ting Yeh. 
 Our initial brainstorms aim to construct the clock with the following features: time zones, set alarm, change gender, change voice (this specifically refers to voice quality, such that we originally intend to incorporate the voice of SpongeBob SquarePants) and change languages.
  
-Xinyi Ma: Current Time function. Video presentation. 
-Wansu Zhu: Alarm function. Video presentation. 
+Xinyi Ma: Current Time function. Voice recordings. Video presentation. 
+Wansu Zhu: Alarm function. Video presentation.
 Xueying Liu: Time announcement function (both synthetic voice and human voice recordings) . Video presentation. 
-Cathy Ting Zhang: Time zone function. Actual human voice recordings. Video presentation. 
+Cathy Ting Zhang: Time zone function. Time announcement function. Voice recordings. Video presentation. 
 Sherry Yu-Ting Yeh: Analog clock, digital clock and the background picture. Documentation.
 
 7.3 The resource documentation and technical reflection
